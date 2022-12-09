@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <tittle>Feedback5</tittle>
+        <link>http://localhost/FEEDBACK5</link>
+        <description>Aprender como funciona Xampp</description>
+            <item>
+                <title>NOTICIA 1</title>
+                <link>http://localhost/FEEDBACK5/noticia1.html</link>
+                <description>La Cumbre del Clima termina con el compromiso de «vernos más a menudo»</description>
+            </item>
+            <item>
+                <title>NOTICIA 2</title>
+                <link>http://localhost/FEEDBACK5/noticia2.html</link>
+                <description>El cómico y presentador David Broncano está de enhorabuena.</description>
+            </item>
+    </channel>
+</rss>

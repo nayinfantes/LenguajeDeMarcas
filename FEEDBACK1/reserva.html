@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurante Píxel</title>
+    <link rel="icon" href="img/logopixel.png">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    
+    <div>
+        <br>
+        <h1> Restaurante Píxel </h1>
+        <a href="index.html">|CONÓCENOS|  </a>
+        <a  href="menu.html">|MENÚ Y CARTA|  </a>
+        <a  href="reserva.html">|RESERVA|  </a>
+        <a  href="contacto.html">|CONTACTO|  </a>
+        <br clear="all">
+        <hr>
+        <br>
+    </div>
+
+    <h3>REALIZA TU RESERVA</h3>
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+    
+        <label for="nombre">Nombre:</label>
+        <input name="nombre" type="text">
+
+        <br><br>
+
+        <label for="telf">Teléfono:</label>
+        <input name="telf">
+
+        <br><br> 
+
+        <label for="tarjeta">N.Tarjeta:</label>
+        <input name="tarjeta">
+
+        <br><br>
+        <label>Fecha:</label>
+        <select name="dia"> 
+            <option>Día</option> <option>1</option> <option>2</option> <option>3</option> <option>4</option> <option>5</option> 
+            <option>6</option> <option>7</option> <option>8</option> <option>9</option> <option>10</option> <option>11</option>
+            <option>12</option> <option>13</option> <option>14</option> <option>15</option> <option>16</option> <option>17</option>
+            <option>18</option> <option>19</option> <option>20</option> <option>22</option> <option>23</option> <option>24</option>
+            <option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+        </select>
+
+        <select name="mes"> 
+            <option>Mes</option> <option>Enero</option> <option>Febrero</option> <option>Marzo</option> <option>Abril</option> <option>Mayo</option> 
+            <option>Junio</option> <option>Julio</option> <option>Agosto</option> <option>Septiembre</option> <option>Octubre</option> <option>Noviembre</option>
+            <option>Diciembre</option>
+        </select>
+
+        <select name="hora"> 
+            <option>Hora</option> <option>13:00-13:30</option> <option>13:30-14:00</option> <option>14:00-14:30</option> <option>14:30-15:00</option> <option>15:00-15:30</option> 
+            <option>15:30-16:00</option> <option>16:00-16:30</option> <option>16:30-17:00</option> <option>17:00-17:30</option> <option>17:30-18:00</option> <option>18:00-18:30</option>
+            <option>18:30-19:00</option> <option>19:00-19:30</option> <option>19:30-20:00</option> <option>20:00-20:30</option> <option>20:30-21:00</option>
+            <option>21:00-21:30</option> <option>21:30-22:00</option> <option>22:00-22:30</option> <option>22:30-23:00</option>
+        </select>
+
+        <br><br>
+
+        <label>Aviso:</label> <textarea rows="10" cols="45" placeholder="Puedes indicarnos si tienes alguna alergia o preferencia respecto a tu mesa por ejemplo."></textarea>
+
+        <br><br>
+        <label>Zona:</label>
+        <label>Salón</label> <input name="Zona" type="radio" value="Salón">
+        <label>Terraza</label> <input name="Zona" type="radio" value="Terraza">
+
+        <br><br>
+
+        <label>Parking:</label> <input name="parking" type="checkbox" value="parking si">
+
+        <br><br>
+
+        <input name="sub" type="submit" value="Confirma tu reserva">
+        <input name="res" type="reset" value="Borra datos">
+
+    </form>
+    <br>
+    <hr>
+    <a href="reserva.html">VOLVER ARRIBA</a>
+</body>
+</html>

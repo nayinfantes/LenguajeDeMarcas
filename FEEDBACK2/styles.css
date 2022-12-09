@@ -1,0 +1,93 @@
+
+*{
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    text-align:center; 
+}
+body{
+    margin:0;
+    padding:0;
+    background-image:url("img/fondorombos.png");
+}
+
+
+h1{
+    color:rgb(1, 88, 88);
+    font-weight: bold;
+    font-size: 70px;
+}
+
+h2{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3{
+    color:rgb(1, 88, 88);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h4{
+    color:rgb(1, 88, 88);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a{   
+    color:rgb(70, 71, 71);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(1, 88, 88);
+    font-size: 30px; 
+}
+
+hr{
+     
+    height: 5px;
+    color:rgb(1, 88, 88);
+    background-color:rgb(1, 88, 88);
+}
+
+pre, p, label{
+    color:rgb(43, 43, 43);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+img, iframe{
+    border:5px solid rgb(1, 88, 88);
+}
+
+table{
+    color:rgb(43, 43, 43);
+    font-size: 15px;
+    font-weight: bold;
+    margin:auto;
+    border:5px solid rgb(1, 88, 88);
+}
+
+tr.cabecera{
+    background-color:rgb(1, 88, 88);
+}
+
+tr.cuerpo{
+    background-color:rgb(255, 255, 255);
+}
+
+ul{
+    list-style-type : square;
+}
+
+li{
+    text-align: left;
+}
+
+input, select, textarea{
+    font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+    font-size: 10px;
+}

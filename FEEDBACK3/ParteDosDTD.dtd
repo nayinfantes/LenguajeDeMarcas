@@ -1,0 +1,11 @@
+<!ELEMENT musicosCanciones (disco*)>
+<!ELEMENT disco (titulo+, grupo+, year?, singles*)>
+<!ATTLIST disco formato (CD|CASETTE|VINILO|MP3) #REQUIRED>
+<!ATTLIST disco idioma CDATA #IMPLIED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT grupo (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT singles (single*)>
+<!ELEMENT single EMPTY>
+<!ATTLIST single nombre CDATA #IMPLIED>
